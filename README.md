@@ -7,6 +7,7 @@ See https://www.coursera.org/learn/react-native-course
 IOS Screenshots
 
 Welcome Screen
+<img src="captures/IOS_Welcome.png" width="300">
 ![](captures/IOS_Welcome.png)
 
 Subscribe Screen
