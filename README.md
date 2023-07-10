@@ -10,20 +10,25 @@ Welcome Screen
 <img src="captures/IOS_Welcome.png" width="300">
 
 Subscribe Screen
+<br>
 <img src="captures/IOS_Subscribe.png" width="300">
 
 Alert Dialog
+<br>
 <img src="captures/IOS_Alert.png" width="300">
 
 #### Android Screenshots
 
 Welcome Screen
+<br>
 <img src="captures/Android_Welcome.png" width="300">
 
 Subscribe Screen
+<br>
 <img src="captures/Android_Subscribe.png" width="300">
 
 Alert Dialog
+<br>
 <img src="captures/Android_Alert.png" width="300">
 
 Imagined TODOs
