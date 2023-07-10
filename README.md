@@ -1,31 +1,29 @@
 ## Little Lemon
 
-This is the final project for the React Native course by Meta on Coursera.
+### This is the final project for the React Native course by Meta on Coursera.
+*See https://www.coursera.org/learn/react-native-course*
 
-See https://www.coursera.org/learn/react-native-course
-
-IOS Screenshots
+#### IOS Screenshots
 
 Welcome Screen
 <img src="captures/IOS_Welcome.png" width="300">
-![](captures/IOS_Welcome.png)
 
 Subscribe Screen
-![](captures/IOS_Subscribe.png)
+<img src="captures/IOS_Subscribe.png" width="300">
 
 Alert Dialog
-![](captures/IOS_Alert.png)
+<img src="captures/IOS_Alert.png" width="300">
 
-Android Screenshots
+#### Android Screenshots
 
 Welcome Screen
-![](captures/Android_Welcome.png)
+<img src="captures/Android_Welcome.png" width="300">
 
 Subscribe Screen
-![](captures/Android_Subscribe.png)
+<img src="captures/Android_Subscribe.png" width="300">
 
 Alert Dialog
-![](captures/Android_Alert.png)
+<img src="captures/Android_Alert.png" width="300">
 
 Imagined TODOs
 - Create a component for the Button used on both screens
