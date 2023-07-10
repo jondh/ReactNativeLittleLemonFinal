@@ -1,12 +1,11 @@
 import React from "react"
+import {useColorScheme} from 'react-native';
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native'
-
-const COLOR_BUTTON = "#505E58"
-const COLOR_BUTTON_PRESSED = "#a7aeab"
-const COLOR_BG = "#FFFFFF"
-const COLOR_TEXT = "#000000"
+import { COLORS } from '../style_constants.js'
 
 export default function WelcomeScreen({ navigation }) {
+  const colorScheme = useColorScheme()
+  const styles = appliedStyles(colorScheme)
 
     return (
         <View style={styles.container}>
@@ -24,7 +23,9 @@ export default function WelcomeScreen({ navigation }) {
             }
             style={({pressed}) => [
               {
-                backgroundColor: pressed ? COLOR_BUTTON_PRESSED : COLOR_BUTTON,
+                backgroundColor: pressed ? 
+                  COLORS(colorScheme).PRIMARY_CONTAINER : 
+                  COLORS(colorScheme).PRIMARY,
               },
               styles.buttonContainer,
             ]}>
@@ -34,11 +35,13 @@ export default function WelcomeScreen({ navigation }) {
     );
 }
 
-const styles = StyleSheet.create({
+const appliedStyles = (colorScheme) => {
+  const colors = COLORS(colorScheme)
+  return StyleSheet.create({
     container: {
       flex: 1,
       flexDirection: 'column',
-      backgroundColor: COLOR_BG
+      backgroundColor: colors.SURFACE
     },
     infoContiner: {
       flexGrow: 1,
@@ -58,7 +61,7 @@ const styles = StyleSheet.create({
       fontSize: 20, 
       marginTop: 30,
       marginHorizontal: 30,
-      color: COLOR_TEXT, 
+      color: colors.ON_SURFACE, 
       textAlign: "center",
       fontWeight: "bold"
     },
@@ -69,9 +72,10 @@ const styles = StyleSheet.create({
       marginVertical: 15
     },
     buttonText: {
-      color: COLOR_BG,
+      color: colors.SURFACE,
       fontSize: 16,
       fontWeight: '600',
       alignSelf: 'center'
     }
-  });
+  })
+}
