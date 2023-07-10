@@ -14,7 +14,7 @@ export default function WelcomeScreen({ navigation }) {
                 <Image style={styles.logoImg} source={require('../assets/little-lemon-logo.png')} />
             </View>
             <Text style={styles.text}>
-                Little Lemon, your local Mediterranean Bistro
+                Little Lemon, your local{'\n'}Mediterranean Bistro
             </Text>
           </View>
           <Pressable 
