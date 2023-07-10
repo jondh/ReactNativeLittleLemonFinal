@@ -6,6 +6,7 @@
 #### IOS Screenshots
 
 Welcome Screen
+<br>
 <img src="captures/IOS_Welcome.png" width="300">
 
 Subscribe Screen
